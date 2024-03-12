@@ -3,8 +3,10 @@ from plyer import notification
 import time
 from notifyproject import name_,time_value
 
-EMAIL_ADDRESS='anwarbasha1506@gmail.com'
-EMAIL_PASSWORD='dorsqmoisegvquea'
+EMAIL_ADDRESS='Email@email.com'
+#give email with creating an app password from account settings in goole accounts in security section.
+EMAIL_PASSWORD='******************'
+##the password which you set should be there
 RECEIVER_MAIL =name_
 
 
@@ -12,7 +14,7 @@ def notifyme(title,message):
     notification.notify(
         title = title,
         message =message,
-        app_icon ="C:\\Users\\panwarbasha\\Downloads\\image.ico",
+        app_icon ="icon path",
         timeout =10,
     )
 
